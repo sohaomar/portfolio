@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soha Omar | Embedded Systems & Cybersecurity Portfolio</title>
+  <meta name="description" content="Soha Omar - Communication & Electronics Engineering student with passion for Embedded Systems, Cybersecurity, and Networking." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading screen overlay -->
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <p>Loading portfolio...</p>
+  </div>
+
+  <!-- Scroll progress indicator -->
+  <div class="progress-wrap" id="progressWrap">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- Sticky navigation bar -->
+  <header class="site-header" id="header">
+    <div class="container header-inner" data-reveal>
+      <a href="#home" class="brand">Soha Omar</a>
+      <nav class="nav" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#training">Training</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home" data-reveal>
+      <div class="container hero-grid">
+        <div class="hero-copy" data-reveal>
+          <span class="eyebrow">Hello, I’m</span>
+          <h1 class="hero-title">Soha Omar</h1>
+          <p class="hero-subtitle">Communication & Electronics Engineering Student</p>
+          <p class="hero-typing"><span id="typingText"></span><span class="cursor">|</span></p>
+          <p class="hero-description">Passionate Communication and Electronics Engineering student with a strong interest in Embedded Systems, Cybersecurity, Networking, and Software Development. I enjoy building practical engineering projects, solving real-world problems, and continuously learning new technologies.</p>
+          <div class="hero-actions">
+             
+            <a class="btn btn-primary" href="#" download>Download CV</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/sohaomar" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/soha-omar-b795b8333" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:sohaomar823@gmail.com">Email</a>
+            <a href="https://wa.me/201220181065" target="_blank">
+    WhatsApp
+</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card glass-card">
+            <div class="hero-card-header">
+              <span class="dot dot-blue"></span>
+              <span class="dot dot-cyan"></span>
+              <span class="dot dot-violet"></span>
+            </div>
+            <div class="hero-card-body">
+              <div class="hero-code-line"></div>
+              <div class="hero-code-line"></div>
+              <div class="hero-code-line hero-code-highlight"></div>
+              <div class="hero-code-line"></div>
+            </div>
+          </div>
+          <div class="hero-shape shape-1"></div>
+          <div class="hero-shape shape-2"></div>
+          <div class="hero-shape shape-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div class="section-intro">
+          <span class="section-label">About</span>
+          <h2>Professional Journey</h2>
+          <p>I'm Soha Omar, a Communication and Electronics Engineering student at the Faculty of Engineering, Qena University. I have a strong passion for technology, software development, embedded systems, cybersecurity, and networking. I enjoy transforming ideas into real-world projects while continuously improving my technical skills through practical training and self-learning. I believe continuous learning is the key to becoming a successful engineer.</p>
+        </div>
+        <div class="info-panel glass-card">
+          <div class="info-group">
+            <h3>Education</h3>
+            <p>Faculty of Engineering<br />Qena University</p>
+          </div>
+          <div class="info-group">
+            <h3>Department</h3>
+            <p>Communication & Electronics Engineering</p>
+          </div>
+          <div class="info-group">
+            <h3>Current Level</h3>
+            <p>Third Year Student</p>
+          </div>
+          <div class="info-group">
+            <h3>Expected Graduation</h3>
+            <p>2028</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section" data-reveal>
+      <div class="container stats-grid">
+        <article class="stat-card glass-card" data-count="2+" data-reveal>
+          <h3 class="stat-value" id="projectsCount">0+</h3>
+          <p>Projects</p>
+        </article>
+        <article class="stat-card glass-card" data-count="4+">
+          <h3 class="stat-value" id="trainingCount">0+</h3>
+          <p>Trainings</p>
+        </article>
+        <article class="stat-card glass-card" data-count="10+">
+          <h3 class="stat-value" id="supportCount">0+</h3>
+          <p>Technical Skills</p>
+        </article>
+        <article class="stat-card glass-card" data-count="100%">
+          <h3 class="stat-value" id="learningCount">0%</h3>
+          <p>Passion For Learning</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills" data-reveal>
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-label">Skills</span>
+          <h2>Technical Expertise</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card glass-card">
+            <h3>Programming</h3>
+            <p>C · C++ · Python · Dart </p>
+          </div>
+          <div class="skill-card glass-card">
+            <h3>Embedded Systems</h3>
+            <p>AVR · ATmega32 · GPIO · ADC · UART · Timers · LCD · Keypad · Interrupts · Sensors</p>
+          </div>
+          <div class="skill-card glass-card">
+            <h3>Cybersecurity</h3>
+            <p>Introduction to Cyber Security · Security Fundamentals</p>
+          </div>
+          <div class="skill-card glass-card">
+            <h3>Networking</h3>
+            <p>Networking Fundamentals · IP Addressing · Network Basics</p>
+          </div>
+          <div class="skill-card glass-card">
+            <h3>Engineering Tools</h3>
+            <p>Proteus · AutoCAD · VS Code · Git · GitHub</p>
+          </div>
+          <div class="skill-card glass-card">
+            <h3>Soft Skills</h3>
+            <p>Problem Solving · Teamwork · Communication · Adaptability · Critical Thinking · Self Learning</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training Timeline Section -->
+    <section class="section" id="training" data-reveal>
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-label">Training</span>
+          <h2>Practical Experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Microcontroller Based Systems</h3>
+              <span>National Telecommunication Institute (NTI)</span>
+              <p>Completed practical training on AVR Microcontrollers, Embedded C Programming and hardware interfacing.</p>
+            </div>
+          </div>
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Cyber Security</h3>
+              <span>MaharaTech</span>
+              <p>Completed introductory cybersecurity training covering threats, vulnerabilities and security fundamentals.</p>
+            </div>
+          </div>
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>CS50</h3>
+              <span>Information Technology Institute (ITI)</span>
+              <p>Programming fundamentals, algorithms, problem solving and object-oriented programming.</p>
+            </div>
+          </div>
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>C Programming</h3>
+              <span>M3aarf Platform</span>
+              <p>Programming fundamentals and structured programming.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects" data-reveal>
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-label">Projects</span>
+          <h2>Selected Work</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card glass-card">
+            <div class="project-head">
+              <span class="project-tag">Project 1</span>
+              <h3>Mini Smart Home</h3>
+            </div>
+            <p class="project-description">Designed and implemented a Mini Smart Home system using AVR Microcontrollers and Embedded C.</p>
+            <div class="project-details">
+              <span>Temperature Monitoring</span>
+              <span>LCD Display</span>
+              <span>Lighting Control</span>
+            </div>
+            <div class="project-details">
+              <span>Sensors</span>
+              <span>Hardware Interfacing</span>
+            </div>
+            <div class="project-stack">
+              <span>Embedded C</span>
+              <span>ATmega32</span>
+              <span>Proteus</span>
+              <span>AVR</span>
+            </div>
+            <a class="btn btn-outline" href="https://github.com/sohaomar" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <div class="project-card glass-card">
+            <div class="project-head">
+              <span class="project-tag">Project 2</span>
+              <h3>Task Manager</h3>
+            </div>
+            <p class="project-description">Console-based Task Manager developed using C++ and Object-Oriented Programming.</p>
+            <div class="project-stack project-stack-single">
+              <span>C++</span>
+              <span>OOP</span>
+              <span>File Handling</span>
+            </div>
+            <a class="btn btn-outline" href="https://github.com/sohaomar" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages & Contact Section -->
+    <section class="section" id="contact" data-reveal>
+      <div class="container contact-grid">
+        <div class="glass-card contact-panel" data-reveal>
+          <span class="section-label">Languages</span>
+          <h2>Communication Skills</h2>
+          <div class="language-list">
+            <div>
+              <h3>Arabic</h3>
+              <p>Native</p>
+            </div>
+            <div>
+              <h3>English</h3>
+              <p>Intermediate</p>
+            </div>
+          </div>
+          <div class="contact-summary">
+            <p>Reach out via email, GitHub, or LinkedIn to discuss internship opportunities, projects, or collaboration.</p>
+            <div class="contact-links">
+              <a href="mailto:sohaomar823@gmail.com">sohaomar823@gmail.com</a>
+              <a href="https://github.com/sohaomar" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/soha-omar-b795b8333" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="contact-card" href="https://wa.me/201220181065" target="_blank" rel="noreferrer">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.47-.149-.669.149-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.521.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.349-.272.297-1.04 1.015-1.04 2.476 0 1.461 1.064 2.875 1.212 3.074.149.198 2.096 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.72 2.006-1.413.248-.693.248-1.288.173-1.414-.075-.124-.272-.198-.57-.347m-5.4 7.581h-.001c-4.688 0-8.497-3.808-8.497-8.497 0-4.687 3.809-8.496 8.497-8.496 4.687 0 8.496 3.809 8.496 8.496 0 4.688-3.809 8.497-8.496 8.497m0-20.068c-6.339 0-11.571 5.133-11.571 11.571 0 2.045.564 3.93 1.545 5.563l-1.645 5.99 6.154-1.617c1.526.83 3.227 1.269 5.017 1.269 6.339 0 11.571-5.132 11.571-11.571 0-6.339-5.132-11.571-11.571-11.571" />
+                  </svg>
+                </span>
+                <span>
+                  WhatsApp
+                  <small>+201220181065</small>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <form class="glass-card contact-form" id="contactForm" novalidate>
+          <span class="section-label">Contact</span>
+          <h2>Send a Message</h2>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="Project inquiry" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-notice" id="formNotice"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Soha Omar</p>
+      <p>Designed & Developed using HTML CSS JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
