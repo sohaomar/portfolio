@@ -43,8 +43,8 @@ scrollTopBtn.addEventListener('click', () => {
 
 // Animate stats counters once when visible
 const counters = [
-  { id: 'projectsCount', target: 2, suffix: '+' },
-  { id: 'trainingCount', target: 4, suffix: '+' },
+  { id: 'projectsCount', target: 4, suffix: '+' },
+  { id: 'trainingCount', target: 6, suffix: '+' },
   { id: 'supportCount', target: 10, suffix: '+' },
   { id: 'learningCount', target: 100, suffix: '%' }
 ];
